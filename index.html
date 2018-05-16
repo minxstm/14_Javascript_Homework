@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>14_JavaScript_Homework</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <input type'"text" id="dateTime" placeholder="Datetime mm/dd/yyyy">
+  </div>
+  <div>
+    <button id="search">Search</button>
+  </div>    
+  <div class="row">
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>Datetime</th>
+              <th>City</th>
+              <th>State</th>
+              <th>Country</th>
+              <th>Shape</th>
+              <th>Duration Minutes</th>
+              <th>Comments</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+      <div id="plot"></div>
+  </div>    
+
+  <script src="plots.js"></script>
+  <script src="data.js"></script>
+
+</body>
+
+</html>
